@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.carousel{
+  max-width: 100%;
+  margin: 0 0;
+}
+.item{
+  height:572px;
+  width:100%;
+}
+
+.loginDiv{
+  padding-bottom: 170px;
+  padding-top: 78px !important;
+}
+
+.loginBtm{
+  margin-top:103px;
+}
+
+Table, td, th{
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+Table{
+  width:100%;
+}
+
+td:hover{
+  font-size: 20px;
+  color:brown
+}
+
+.rIn:hover{
+  background-color:darksalmon;
+}
+.rIn{
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .table-responsive {
+      margin-top: 20px;
+  }
+
+  table {
+      font-size: 12px;
+  }
+}
+
+.cimg{
+  opacity: '';
+}
+
+@keyframes blink{
+  0% {color:red;}
+  25% {color:black;}
+  50% {color:blue;}
+  75% {color:green;}
+  100% {color:purple;}
+}
+
+.blink {
+  animation: blink 1s infinite;
+}
+
+Carousel.Item{
+  opacity:0.5
+}
