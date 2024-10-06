@@ -37,7 +37,7 @@ function Home() {
     //         <img src={village} alt='village' className='d-block' style={{height:'100%'}}/>
     //     </Carousel.Item>
     //   </Carousel>
-    <Carousel style={{width:"100%", overflow:"hidden", fontFamily:"sans-serif", fontSize:"35px", position:"absolute"}}>
+    <Carousel style={{width:"100%", overflow:"hidden", fontFamily:"sans-serif", fontSize:"35px"}}>
         <Carousel.Item>
             <img src={grievance} alt='village' style={{height:"83vh", width:"100%"}} className='cimg'/>
             <Carousel.Caption>Welcome to the <b>Mountain Portal</b></Carousel.Caption>
